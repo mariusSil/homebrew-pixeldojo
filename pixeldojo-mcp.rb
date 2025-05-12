@@ -12,7 +12,7 @@ class PixeldojoMcp < Formula
   # Main dependencies
   resource "aiohttp" do
     url "https://pypi.io/packages/source/a/aiohttp/aiohttp-3.8.6.tar.gz"
-    sha256 "b0cf2a4501bff9330f9c82b7b112ad49491fe8e446d94d8d58439808c3e3c91d"
+    sha256 "b0cf2a4501bff9330a8a5248b4ce951851e415bdcce9dc158e76cfd55e15085c"
   end
 
   resource "pydantic" do
