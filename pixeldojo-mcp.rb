@@ -17,11 +17,11 @@ class PixeldojoMcp < Formula
 
   resource "pydantic" do
     url "https://pypi.io/packages/source/p/pydantic/pydantic-2.0.3.tar.gz"
-    sha256 "94f13e0dcf139a5125e88283fc999788d894e4b1e490c9553917866a3643ed26"
+    sha256 "94f13e0dcf139a5125e88283fc999788d894e14ed90cf478bcc2ee50bd4fc630"
   end
 
   resource "mcp" do
-    url "https://pypi.io/packages/source/m/mcp/mcp-1.0.2.tar.gz"
+    url "https://files.pythonhosted.org/packages/e3/ab/28affba93b6a93b33f0b96b5faef7e6b7e5f3ef9b3a6419d92a8cef88c37/mcp-1.0.2.tar.gz"
     sha256 "dc2626f1e3862d1af16d8ab8fa72ec0e6a5a35ef85cb8f8a67f39b64a66db4a9"
   end
   
@@ -47,12 +47,12 @@ class PixeldojoMcp < Formula
 
   resource "frozenlist" do
     url "https://pypi.io/packages/source/f/frozenlist/frozenlist-1.4.1.tar.gz"
-    sha256 "c037a86e8513059a2613aaba4d817bb90b302f0fd549f54d4c0affa6471e2c74"
+    sha256 "c037a86e8513059a2613aaba4d817bb90b9d9b6b69aace3ce9c877e8c8ed402b"
   end
 
   resource "async-timeout" do
     url "https://pypi.io/packages/source/a/async-timeout/async-timeout-4.0.3.tar.gz"
-    sha256 "4640d96be84d82d02ed59ea2b7105a0f7b33ade8834a54b4536c8304d8f6b537"
+    sha256 "4640d96be84d82d02ed59ea2b7105a0f7b33abe8703703cd0ab0bf87c427522f"
   end
 
   resource "idna" do
