@@ -11,18 +11,18 @@ class PixeldojoMcp < Formula
 
   # Main dependencies
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/d6/12/97c2b0376995e0d59a8a80e0f9a2c650033a85b7efceceee693ad17612f5/aiohttp-3.8.6-cp311-cp311-macosx_11_0_arm64.whl"
-    sha256 "676ca066ade39aacdccc2c68dfb72c8391409ebeef225e49d2a8f3120fd22e94"
+    url "https://files.pythonhosted.org/packages/fd/01/f180d31923751fd5c9fe5fd9d2cff2bb34df8b49d50cb2cc1d7e70a68bb4/aiohttp-3.8.6.tar.gz"
+    sha256 "b0cf2a4501bff9330a8a5248b4ce951851e415bdcce9dc158e76cfd55e15085c"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/21/84/2acce7cadb6562dfd327d129ebafb9c2f2f2d09dc2afea1434e29231a45a/pydantic-2.0.3-py3-none-any.whl"
-    sha256 "7c0bf3acb7ef1bb8ceb7388e9a738ab8b7c084ef02f352a030c64a883e17a0ab"
+    url "https://files.pythonhosted.org/packages/e2/6c/9d7029f30f5a079c0412e5c5a4214c28f07538cac3392b2f9e7e51a26389/pydantic-2.0.3.tar.gz"
+    sha256 "94f13e0dcf139a5125e88283fc999788d894e14ed90cf478bcc2ee50bd4fc630"
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/ef/d1/a27d28b37acfe801a66cb67f0a1e6a7a12c3e37d7fe91a0de6d4df9f6d84/mcp-1.8.0.tar.gz"
-    sha256 "fa50f0ecc72df169b797c9b96775f9ce0aadbbaa353ecf3be6e005d02ddb34e9"
+    url "https://files.pythonhosted.org/packages/f2/49/3028ea2a012e3b6a66f3a5e7c2e21cc1ce131a6db36ed28c859713cc4f3c/mcp-1.8.0.tar.gz"
+    sha256 "bd53c7de5ea81859876001b3dfbf93dd8eeab11b4aaca1405c99861e4327bb5f"
   end
   
   resource "attrs" do
