@@ -21,8 +21,8 @@ class PixeldojoMcp < Formula
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/f8/74/40f41c49c1c3c922ccdc46b7f8f47b4d3b3dfb090c4f1b3e5a6e27d79aaa/mcp-1.0.2.tar.gz"
-    sha256 "dc2626f1e3862d1af16d8ab8fa72ec0e6a5a35ef85cb8f8a67f39b64a66db4a9"
+    url "https://files.pythonhosted.org/packages/bc/f1/93436efb0ed2811bba7f54143b85e91adef97e4b4fd15362ed8ab3d17aef/mcp-1.8.0-py3-none-any.whl"
+    sha256 "03ae0343db2af3ef94ee2c26c4a2b31e00f00e9ff119ddfcb0b71ca05ffe0da4"
   end
   
   resource "attrs" do
