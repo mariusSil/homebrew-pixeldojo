@@ -11,18 +11,53 @@ class PixeldojoMcp < Formula
 
   # Main dependencies
   resource "aiohttp" do
-    url "https://files.pythonhosted.org/packages/d6/12/96982e7a7c09dc47c5e9ea9d4eaba3e9dbc62a5453cb491e5eb31a6c9a66/aiohttp-3.9.5.tar.gz"
-    sha256 "02271f722e7a1f965cef05cb502ae5981c51a9d5e41dfc39a1bac1c276d52220"
+    url "https://pypi.io/packages/source/a/aiohttp/aiohttp-3.8.6.tar.gz"
+    sha256 "b0cf2a4501bff9330f9c82b7b112ad49491fe8e446d94d8d58439808c3e3c91d"
   end
 
   resource "pydantic" do
-    url "https://files.pythonhosted.org/packages/1b/1c/8c7720af1421ca05eeea4e71a5b32ea481aebd712e8548c9b3d5cb306b37/pydantic-2.7.0.tar.gz"
-    sha256 "3ce13a558736b0804223a82499ad3848d9367561932876aaef98d5be6d2ab211"
+    url "https://pypi.io/packages/source/p/pydantic/pydantic-2.0.3.tar.gz"
+    sha256 "94f13e0dcf139a5125e88283fc999788d894e4b1e490c9553917866a3643ed26"
   end
 
   resource "mcp" do
-    url "https://files.pythonhosted.org/packages/d4/91/95f59c0af4c1fe9c10882cffc46fbff1f5c856a37a47e86adaea79c80d7a/mcp-1.8.0.tar.gz"
-    sha256 "2d6775a3a9f57d4e0e0a88d48e7a5baaf62f0c78c10857d92cd63cb12a15c86c"
+    url "https://pypi.io/packages/source/m/mcp/mcp-1.0.2.tar.gz"
+    sha256 "dc2626f1e3862d1af16d8ab8fa72ec0e6a5a35ef85cb8f8a67f39b64a66db4a9"
+  end
+  
+  resource "attrs" do
+    url "https://pypi.io/packages/source/a/attrs/attrs-23.1.0.tar.gz"
+    sha256 "6279836d581513a26f1bf235f9acd333bc9115683f14f7e8fae46c98fc50e015"
+  end
+
+  resource "multidict" do
+    url "https://pypi.io/packages/source/m/multidict/multidict-6.0.4.tar.gz"
+    sha256 "3666906492efb76453c0e7b97f2cf459b0682e7402c0489a95484965dbc1da49"
+  end
+
+  resource "yarl" do
+    url "https://pypi.io/packages/source/y/yarl/yarl-1.9.2.tar.gz"
+    sha256 "04ab9d4b9f587c06d801c2abfe9317b77cdf996c65a90d5e84ecc45010823571"
+  end
+
+  resource "charset-normalizer" do
+    url "https://pypi.io/packages/source/c/charset-normalizer/charset-normalizer-3.3.2.tar.gz"
+    sha256 "f30c3cb33b24454a82faecaf01b19c18562b1e89558fb6c56de4d9118a032fd5"
+  end
+
+  resource "frozenlist" do
+    url "https://pypi.io/packages/source/f/frozenlist/frozenlist-1.4.1.tar.gz"
+    sha256 "c037a86e8513059a2613aaba4d817bb90b302f0fd549f54d4c0affa6471e2c74"
+  end
+
+  resource "async-timeout" do
+    url "https://pypi.io/packages/source/a/async-timeout/async-timeout-4.0.3.tar.gz"
+    sha256 "4640d96be84d82d02ed59ea2b7105a0f7b33ade8834a54b4536c8304d8f6b537"
+  end
+
+  resource "idna" do
+    url "https://pypi.io/packages/source/i/idna/idna-3.6.tar.gz"
+    sha256 "9ecdbbd083b06798ae1e86adcbfe8ab1479cf864e4ee30fe4e46a003d12491ca"
   end
 
   # Add additional Python package dependencies following the same pattern
